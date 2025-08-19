@@ -13,13 +13,33 @@ knitr::opts_chunk$set(
 )
 ```
 
-# NHP Elicitation Tool
+# NDG3 elicitation app
 
-<!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-<!-- badges: end -->
+This repo contains the shiny app code for the NDG3 elicitation exercise. The exercise was in person on 9th October 2024.
 
-Shiny app for the NHP National Elicitation Project.
+The aggregation and analysis of the results is on [GitHub](https://github.com/The-Strategy-Unit/NDG_prediction_aggregation). 
+The results are stored privately on [Sharepoint](https://csucloudservices.sharepoint.com/sites/HEUandSUProjects/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FHEUandSUProjects%2FShared%20Documents%2FNew%20Hospitals%20Programme%2F03%2E%20Programme%20Delivery%2F01%2E%20Workstream%20Project%20Documents%2FNDG%20Elicitation%2FResults&viewid=9e82fcc3%2Df0f4%2D4f15%2D9420%2D79b8cb38998c).
+
+## Main changes from [core elicitation app](https://github.com/The-Strategy-Unit/nhp_elicitation_tool)
+
+- Rather than elicit on mitigators, experts were asked about "The average annual, unmitigated rate of **residual (R)** growth (%) in each of the following service areas between 2022 and 2042" annual growth in attendence for four service areas; ED, IP elective, IP emergency and OP
+- Historic trend data was not visualised
+- Values chosen could be between -10 and 10.
+- Experts were split into two teams. These were handled as two seperate apps `ndg_team_a` and `ndg_team_b`
+
+## Screenshots from the app
+
+### Landing page
+
+![](screenshots/ndg_round_0.png)
+
+### Round 1
+
+![](screenshots/ndg_round_1.png)
+
+### Round 2
+
+![](screenshots/ndg_round_2.png)
 
 ## Deployment
 
