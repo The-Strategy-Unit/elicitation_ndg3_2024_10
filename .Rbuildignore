@@ -12,6 +12,7 @@ run_dev.*
 ^CODE_OF_CONDUCT\.md$
 ^app\.R$
 ^rsconnect$
+^residual_growth_elicitation_report.pdf$
 
 ^recruitment.xlsx$
 ^nhp_eet.db$

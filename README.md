@@ -11,6 +11,9 @@ The aggregation and analysis of the results is on
 The results are stored privately on
 [Sharepoint](https://csucloudservices.sharepoint.com/sites/HEUandSUProjects/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FHEUandSUProjects%2FShared%20Documents%2FNew%20Hospitals%20Programme%2F03%2E%20Programme%20Delivery%2F01%2E%20Workstream%20Project%20Documents%2FNDG%20Elicitation%2FResults&viewid=9e82fcc3%2Df0f4%2D4f15%2D9420%2D79b8cb38998c).
 
+You can [read the report](residual_growth_elicitation_report.pdf) of the
+full study and analysis.
+
 ## Main changes from [core elicitation app](https://github.com/The-Strategy-Unit/nhp_elicitation_tool)
 
 - Rather than elicit on mitigators, experts were asked about “The
